@@ -1,0 +1,71 @@
+
+.header {
+    background-color: black;
+    margin-right: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white; 
+    height: 65px;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: white;
+}
+
+.row-hero {
+    margin-bottom: 50px;
+}
+.side-hero {
+    background-color: #F5F5F5;
+    border: solid lightgray;
+    padding: 25px 50px;
+    margin: 0 25px;
+}
+
+.card-row {
+    margin-bottom: 25px;
+
+}
+
+.img-wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.img-wrapper img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+  
+.img-wrapper:hover img {
+    transform: scale(1.1);
+    filter: brightness(35%);
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.site-footer {
+    background-color: black;
+    padding: 50px; 
+    margin: 25px 0 0 0;
+    color: white;
+}
+
+.fa-facebook, .fa-youtube, .fa-instagram, .fa-twitter {
+    background: white;
+    color: black;
+    }
+
+.newsletter-input {
+    margin: auto;
+    display: block;
+}
